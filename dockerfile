@@ -156,8 +156,8 @@
         apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/3bf863cc.pub && \
         add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/ /" && \
         apt-get update && \
-        apt-get install libcudnn8=8.8.1.*-1+cuda12.1 -y && \
-        apt-get install libcudnn8-dev=8.8.1.*-1+cuda12.1 -y && \
+        apt-get install libcudnn8=8.8.1.3-1+cuda12.0 -y && \
+        apt-get install libcudnn8-dev=8.8.1.3-1+cuda12.0 -y && \
         rm /etc/apt/preferences.d/cuda-repository-pin-600
 
 
